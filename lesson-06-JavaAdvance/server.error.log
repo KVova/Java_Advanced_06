@@ -1,0 +1,3 @@
+2020-05-23 17:17:10 ERROR BucketDaoImpl:40 - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`internet_magazine`.`bucket`, CONSTRAINT `user_id_FK` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT)
+2020-05-23 17:17:11 ERROR BucketDaoImpl:40 - java.sql.SQLException
+2020-05-23 17:17:11 ERROR BucketDaoImpl:62 - java.sql.SQLException: Illegal operation on empty result set.
